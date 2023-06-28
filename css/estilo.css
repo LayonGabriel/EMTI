@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    background-color: rgb(208, 255, 186);
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#logo{
+    width: 200px;
+}.menu ul li{
+    display: inline
+}
+.menu > ul > li > a:link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.menu > ul > li > a:hover{
+    border-bottom: 2px solid green;
+}
+.menu > ul > li > a:active{
+    color: black;
+    border-bottom: 2px solid green;
+    font-weight: 700;
+}
+#ativo{
+    border-bottom: 2px solid green;
+}
+#banner-principal{
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: rgb(208, 255, 186);
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%
+}
+.banner{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    border-color: 2px solid orange;
+}
+.banner-video{
+    border-radius: 15%;
+}
+#video{
+    background-color: rgb(135, 200, 120, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-bottom: 3px solid orange;
+    border-top: 3px solid orange;
+}
+#video > .container > img{
+    height: 315px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer>p>a{
+    text-decoration: none;
+    color: black;
+}
